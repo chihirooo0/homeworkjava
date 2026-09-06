@@ -1,4 +1,4 @@
-public class 5peremenih {
+public class peremenih {
     public static void main(String[] args) {
     int number = 52;
     double price = 67.69;
