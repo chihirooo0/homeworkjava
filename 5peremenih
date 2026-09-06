@@ -1,0 +1,9 @@
+public class 5peremenih {
+    public static void main(String[] args) {
+    int number = 52;
+    double price = 67.69;
+    boolean isStudent = false;
+    String subject = "javaaa";
+    char grade = 'B';
+    }
+}
