@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Введите имя: ");
+        String name = scanner.nextLine();
+
+        System.out.print("Введите возраст: ");
+        int age = scanner.nextInt();
+        scanner.nextLine();
+
+        System.out.print("Введите город: ");
+        String city = scanner.nextLine();
+
+        System.out.println("\n--- Визитка ---");
+        System.out.println("Имя: " + name);
+        System.out.println("Возраст: " + age);
+        System.out.println("Город: " + city);
+    }
+}
